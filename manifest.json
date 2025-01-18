@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SleekTab",
+  "version": "1.0",
+  "description": "一个简洁优雅的新标签页",
+  "icons": {
+    "16": "icons/icon16.jpg",
+    "32": "icons/icon32.jpg",
+    "48": "icons/icon48.jpg",
+    "128": "icons/icon128.jpg"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+} 
